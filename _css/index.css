@@ -1,0 +1,67 @@
+body{
+    background-color: indigo;
+    background-image: url(../_img/goku.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    border: solid gold;
+    border-style: dashed;
+    background-color: purple;
+    font-family: cursive;
+    color: gold;
+    padding: 5  px;
+}
+
+fieldset{
+    border-color: gold;
+
+}
+
+.button{
+    background-color: rgb(115, 3, 196);
+    border: solid;
+    border-style: none;
+    border-radius: 5px;
+    font-size:15px;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    width: 15%;
+}
+
+
+
+input[type=text],
+input[type=number],
+input[type=tel]{
+    padding:2px;
+    width:50%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=tel]:focus{
+    background-color: lightpink;
+}
+
+textarea{
+    resize: none;
+}
+
+select{
+    width: 30%;
+    padding:2px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    font-family: cursive;
+}

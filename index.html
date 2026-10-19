@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acaiajin</title>
+    <link rel="stylesheet" href="_css/index.css">
+</head>
+
+<body>
+    <h1>Formulário SUPER <strong>Acaiajin</strong></h1>
+    <form method="get" action="">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label>Nome:<p></p><input class="label" type="text" required></label>
+            <p></p>
+            <label>Idade:<p></p><input class="label" type="number" required></label>
+            <p></p>
+            <label>Telefone:<p></p><input class="label" type="tel" required></label>
+            <p></p>
+            <label>Endereço:<p></p><input class="label" type="text" required></label>
+            <p></p>
+            <label>Planeta de Origem:</label>
+            <br>
+            <br>
+            <select>
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Outros</option>
+            </select>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Extras:</legend>
+        <label> Raça do Universo 7 preferida:
+            <select>
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>Androide</option>
+                <option>Namekuseijin</option>
+                <option>Outros</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>Trabalho:
+            <input type="radio" name="cargo" value="1" checked>Autônomo
+            <input type="radio" name="cargo" value="2"> Empregado CLT
+            <input type="radio" name="cargo" value="3"> Empresário
+            <input type="radio" name="cargo" value="4"> Tipo Goku
+        </label>
+    </fieldset>
+   
+        <fieldset>
+            <legend>
+                Seu acai é perfeito de que jeito?
+            </legend>
+            <input type="checkbox">Puro 
+            <input type="checkbox">Com Banana
+            <input type="checkbox">Com Morango
+            <input type="checkbox">Com Granola
+            <input type="checkbox">Tem gosto de terra
+        </fieldset>
+        <fieldset>
+            <legend>
+                Qual o seu tamanho favorito?
+            </legend>
+            <input type="radio" name="tamanho" value="1" checked>500ml
+            <input type="radio" name="tamanho" value="2" >300ml
+            <input type="radio" name="tamanho" value="3" >100ml
+            <input type="radio" name="tamanho" value="4" >Casquinha
+            <input type="radio" name="tamanho" value="5" > Qual parte do gosto de terra você não entendeu?
+        </fieldset>
+        <fieldset>
+            Observações: <br>
+            <textarea cols="195" rows="10">Escreva suas observações... Eu gosto de açai porque...</textarea>
+        </fieldset>
+        <p></p>
+        <div>
+            <input class="button" type="submit" value="Enviar">
+            <input class="button" type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
